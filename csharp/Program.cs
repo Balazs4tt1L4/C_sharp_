@@ -133,6 +133,16 @@ namespace csharp
             {
                 Console.WriteLine("A szám nem pozitív és páros.");
             }
+            Console.WriteLine("Adj meg egy karaktert: ");
+            char karakter = Console.ReadLine()[0];
+            if (char.IsLetter(karakter))
+                Console.WriteLine("Betű.");
+            else if (char.IsDigit(karakter))
+                Console.WriteLine("Szám.");
+            else
+                Console.WriteLine("Egyéb karakter.");
+
+
 
             {
                 
