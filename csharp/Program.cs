@@ -10,6 +10,7 @@ namespace csharp
     {
         static void Main(string[] args)
         {
+            
             Console.WriteLine("Adj meg egy számot: ");
             int szam = int.Parse(Console.ReadLine());
 
@@ -20,6 +21,25 @@ namespace csharp
             else
             {
                 Console.WriteLine("A szám páratlan.");
+            }
+
+            Console.WriteLine("Adj meg egy számot: ");
+            int szam2 = int.Parse(Console.ReadLine());
+
+            if (szam2 > 0)
+            {
+                Console.WriteLine("A szám pozitív.");
+            }
+            else if (szam2 < 0)
+            {
+                Console.WriteLine("A szám negatív.");
+            }
+            else
+            {
+                Console.WriteLine("A szám nulla.");
+            }
+            {
+                
             }
         }
     }
