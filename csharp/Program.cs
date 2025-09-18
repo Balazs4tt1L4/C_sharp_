@@ -158,7 +158,24 @@ namespace csharp
             {
                 Console.WriteLine("Helytelen jelszó.");
             }
-
+            Console.WriteLine("Add meg az első számot: ");
+            int elsoSzam = int.Parse(Console.ReadLine());
+            Console.WriteLine("Add meg a második számot: ");
+            int masodikSzam = int.Parse(Console.ReadLine());
+            Console.WriteLine("Add meg a harmadik számot: ");
+            int harmadikSzam = int.Parse(Console.ReadLine());
+            if (elsoSzam >= masodikSzam && elsoSzam >= harmadikSzam)
+            {
+                Console.WriteLine("A legnagyobb szám: " + elsoSzam);
+            }
+            else if (masodikSzam >= elsoSzam && masodikSzam >= harmadikSzam)
+            {
+                Console.WriteLine("A legnagyobb szám: " + masodikSzam);
+            }
+            else
+            {
+                Console.WriteLine("A legnagyobb szám: " + harmadikSzam);
+            }
 
             {
                 
