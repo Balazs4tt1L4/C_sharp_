@@ -107,6 +107,23 @@ namespace csharp
             {
                 Console.WriteLine("Hibás jegy.");
             }
+
+            int kitalaltSzam = 50;
+            Console.WriteLine("Találd ki a számot: ");
+            int tipp = int.Parse(Console.ReadLine());
+            if (tipp < kitalaltSzam)
+            {
+                Console.WriteLine("A szám nagyobb.");
+            }
+            else if (tipp > kitalaltSzam)
+            {
+                Console.WriteLine("A szám kisebb.");
+            }
+            else
+            {
+                Console.WriteLine("Eltaláltad a számot!");
+            }
+
             {
                 
             }
