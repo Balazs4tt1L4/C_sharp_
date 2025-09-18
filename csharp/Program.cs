@@ -10,7 +10,7 @@ namespace csharp
     {
         static void Main(string[] args)
         {
-            
+
             Console.WriteLine("Adj meg egy számot: ");
             int szam = int.Parse(Console.ReadLine());
 
@@ -136,12 +136,28 @@ namespace csharp
             Console.WriteLine("Adj meg egy karaktert: ");
             char karakter = Console.ReadLine()[0];
             if (char.IsLetter(karakter))
+            {
                 Console.WriteLine("Betű.");
+            }
             else if (char.IsDigit(karakter))
+            {
                 Console.WriteLine("Szám.");
+            }
             else
+            {
                 Console.WriteLine("Egyéb karakter.");
+            }
+            Console.WriteLine("Add meg a jelszót: ");
+            string jelszo = Console.ReadLine();
 
+            if (jelszo == "titok123")
+            {
+                Console.WriteLine("Helyes jelszó.");
+            }
+            else
+            {
+                Console.WriteLine("Helytelen jelszó.");
+            }
 
 
             {
