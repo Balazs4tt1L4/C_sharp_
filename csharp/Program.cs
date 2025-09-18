@@ -23,6 +23,9 @@ namespace csharp
                 Console.WriteLine("A szám páratlan.");
             }
 
+
+
+
             Console.WriteLine("Adj meg egy számot: ");
             int szam2 = int.Parse(Console.ReadLine());
 
@@ -38,6 +41,9 @@ namespace csharp
             {
                 Console.WriteLine("A szám nulla.");
             }
+
+
+
 
             Console.WriteLine("Adj meg egy hónap számát [1-12]: ");
             int honap = int.Parse(Console.ReadLine());
@@ -60,6 +66,19 @@ namespace csharp
             else
             {
                 Console.WriteLine("Hibás hónap szám.");
+            }
+
+
+            Console.WriteLine("Add meg az életkorod: ");
+            int eletkor = int.Parse(Console.ReadLine());
+
+            if (eletkor >= 18)
+            {
+                Console.WriteLine("Szavazhatsz.");
+            }
+            else
+            {
+                Console.WriteLine("Nem szavazhatsz.");
             }
             {
                 
