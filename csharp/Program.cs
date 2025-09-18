@@ -80,6 +80,33 @@ namespace csharp
             {
                 Console.WriteLine("Nem szavazhatsz.");
             }
+
+            Console.WriteLine("Add meg a jegyed [1-5]: ");
+            int jegy = int.Parse(Console.ReadLine());
+            if (jegy == 1)
+            {
+                Console.WriteLine("Elégtelen");
+            }
+            else if (jegy == 2)
+            {
+                Console.WriteLine("Elégséges");
+            }
+            else if (jegy == 3)
+            {
+                Console.WriteLine("Közepes");
+            }
+            else if (jegy == 4)
+            {
+                Console.WriteLine("Jó");
+            }
+            else if (jegy == 5)
+            {
+                Console.WriteLine("Jeles");
+            }
+            else
+            {
+                Console.WriteLine("Hibás jegy.");
+            }
             {
                 
             }
