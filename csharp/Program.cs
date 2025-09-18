@@ -10,6 +10,17 @@ namespace csharp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Adj meg egy számot: ");
+            int szam = int.Parse(Console.ReadLine());
+
+            if (szam % 2 == 0)
+            {
+                Console.WriteLine("A szám páros.");
+            }
+            else
+            {
+                Console.WriteLine("A szám páratlan.");
+            }
         }
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\balazsa\source\repos\csharp\csharp\bin\Debug\csharp.exe.config
+C:\Users\balazsa\source\repos\csharp\csharp\bin\Debug\csharp.exe
+C:\Users\balazsa\source\repos\csharp\csharp\bin\Debug\csharp.pdb
+C:\Users\balazsa\source\repos\csharp\csharp\obj\Debug\csharp.csproj.AssemblyReference.cache
+C:\Users\balazsa\source\repos\csharp\csharp\obj\Debug\csharp.csproj.CoreCompileInputs.cache
+C:\Users\balazsa\source\repos\csharp\csharp\obj\Debug\csharp.exe
+C:\Users\balazsa\source\repos\csharp\csharp\obj\Debug\csharp.pdb
