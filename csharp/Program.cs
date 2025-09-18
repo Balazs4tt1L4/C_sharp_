@@ -123,6 +123,16 @@ namespace csharp
             {
                 Console.WriteLine("Eltaláltad a számot!");
             }
+            Console.WriteLine("Adj meg egy számot: ");
+            int szam3 = int.Parse(Console.ReadLine());
+            if (szam3 > 0 && szam3 % 2 == 0)
+            {
+                Console.WriteLine("A szám pozitív és páros.");
+            }
+            else
+            {
+                Console.WriteLine("A szám nem pozitív és páros.");
+            }
 
             {
                 
